@@ -1,0 +1,57 @@
+echo "# ProjetoLogin" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/GuilhermeVazz/ProjetoLogin.git
+git push -u origin master
+
+<html>
+<script>
+    function exibirMensagem() {
+
+        var senhaAleatoria = Math.floor((Math.random() * 9999999) + 1000000);
+
+        alert("Sua senha é: " + senhaAleatoria.toString(36).toUpperCase())
+
+        
+    }
+
+    function aprovarSenha() {
+        senhaAleatoria = document.getElementById("senhaAleatoria")
+        if (senhaUsuario = senhaAleatoria) {
+            alert("Aprovado")
+
+        } else {
+            alert("Tente novamente")
+        }
+    }
+
+
+</script>
+
+<head>
+    <title>Pojeto</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="indexcss.html" />
+
+
+
+</head>
+
+<body class='fundoPrincipal'>
+    <div id="layoutFormu">
+        <h1>Login</h1>
+
+        <p class=login> Email <input class="usuario" type="email" name="email"> </p>
+        <p class=senhaa>Senha <input class="senhaUsuario" type="password" name="senha"> </p>
+        <p class=submit><input class="logar logar-lj" type="submit" value="Logar" onclick="aprovarSenha();"></p>
+
+        <div id="botao"><button class="gSenha gSenha-lj" onclick="exibirMensagem();">Não é Cadastrado? Gere sua senha
+                agora</button></div>
+
+
+
+</body>
+
+
+</html>
