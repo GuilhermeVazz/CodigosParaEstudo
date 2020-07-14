@@ -1,0 +1,144 @@
+<style>
+     * {
+        margin: 0;
+        padding: 0;
+    }
+.fundoP{
+    background-color: black; 
+}
+.calculadoraa{
+    margin-top:8%;
+    margin-left: 41.8%;
+}
+
+.telaVisor{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top:0.5%;
+    width: 290px;
+    height: 70px;
+    font-size: 30px;
+}
+.numeros{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(99, 95, 91);
+    color:white;
+    font-size: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top:1%;
+    margin-left: 1%;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+}
+
+.numeros0{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(99, 95, 91);
+    color:white;
+    font-size: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    margin-top:0.5%;
+    margin-left: 1%;
+    width: 154px;
+    height: 70px;
+}
+
+.botaoEnter{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(255, 137, 1);
+    color:white;
+    font-size: 20px;
+    margin-top:1%;
+    margin-left: 1%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+   
+}
+
+.botaoVirgula{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(99, 95, 91);
+    color:white;
+    font-size: 20px;
+    margin-top:1%;
+    margin-left: 1%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+   
+}
+.teclasCinzas{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:1%;
+    margin-left: 1%;
+    border: 1px solid rgb(0, 0, 0);
+    background-color:rgb(206, 206, 206);
+    color:black;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;   
+    
+}
+
+.botaoDivisao{
+ 
+    background-color:rgb(255, 137, 1);
+    color:white;
+    font-size: 20px;
+    margin-top:1%;
+    margin-left: 1%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;   
+
+}
+
+.botaoSub{
+    background-color:rgb(255, 137, 1);
+    color:white;
+    font-size: 20px;
+    margin-top:1%;
+    margin-left: 1%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;   
+
+}
+
+.botaoMulti{
+    background-color:rgb(255, 137, 1);
+    color:white;
+    font-size: 20px;
+    margin-top:1%;
+    margin-left: 1%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;   
+
+}
+
+.botaoSoma{
+    background-color:rgb(255, 137, 1);
+    color:white;
+    font-size: 20px;
+    margin-top:1%;
+    margin-left: 1%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;   
+
+}
+
+</style>
