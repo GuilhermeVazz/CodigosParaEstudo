@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>Guizão</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="indexcss.html" />
+
+<body>
+    <div id="form">
+        <form class="formulario" method="post" action="#">
+            Nome: <br> <input class="nomeForm" type="text" name="nome" maxlength="14" placeholder="Digite seu nome Aqui"
+                required>
+            <br>
+            Sobrenome: <br> <input class="sobrenomeForm" type="text" name="Sobrenome" maxlength="16" placeholder="Digite seu Sobrenome Aqui"
+                required>
+            <br>
+            Email: <br> <input class="emailForm" type="email" name="email" placeholder="Digite seu email Aqui" required>
+            <br>
+            CPF: <br> <input class="cpfForm" type="text" name="cpf" placeholder="Digite seu cpf" maxlength="14"
+                required pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
+            <br>
+            <input class="enviarForm" type="submit" name="acao" value="Enviar">
+        </form>
+
+        
+    </div>
+
+</body>
+
+</head>
+
+</html>
