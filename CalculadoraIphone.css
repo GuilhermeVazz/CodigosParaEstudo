@@ -1,17 +1,39 @@
-<style>
-     * {
-        margin: 0;
-        padding: 0;
-    }
+*{
+    padding: 0;
+    margin: 0;
+}
+#title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
 .fundoP{
     background-color: black; 
 }
+.main{
+    margin: 0 auto;
+}
+#n0{
+    margin-left:40px;
+}
+
+.textview{
+    width: 216px;
+    height: 30px;
+}
+     
+.fundoP{
+    
+    background-color: black; 
+}
 .calculadoraa{
+    
     margin-top:8%;
     margin-left: 41.8%;
 }
 
-.telaVisor{
+.telavisor{
+    
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     color: white;
@@ -42,7 +64,7 @@
     border: 1px solid rgb(0, 0, 0);
     border-radius: 50px;
     margin-top:0.5%;
-    margin-left: 1%;
+    margin-left: 0%;
     width: 154px;
     height: 70px;
 }
@@ -62,8 +84,7 @@
 }
 
 .botaoVirgula{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:rgb(99, 95, 91);
+    background-color:rgb(255, 137, 1);
     color:white;
     font-size: 20px;
     margin-top:1%;
@@ -71,8 +92,7 @@
     border: 1px solid rgb(0, 0, 0);
     border-radius: 50px;
     width: 70px;
-    height: 70px;
-   
+    height: 70px;   
 }
 .teclasCinzas{
     font-family: Arial, Helvetica, sans-serif;
@@ -141,4 +161,7 @@
 
 }
 
-</style>
+.calculadoraa {
+    margin-left: center;
+}
+
