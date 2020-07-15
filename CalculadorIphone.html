@@ -1,36 +1,75 @@
+<!DOCTYPE html>
 <html>
     <script>
-        function adicionarNumeros(){
-            
-        }
-
-    </script>
+    function adicionar(num){
+    document.visor.telavisor.value = document.visor.telavisor.value+ num;
+}
+function igual(){
+    exp = document.visor.telavisor.value;
+    if(exp){
+       document.visor.telavisor.value = eval(exp);
+}
+}
+function limpar(){
+    document.visor.telavisor.value = "";
+}
+function voltar(){
+    var exp = document.visor.telavisor.value;
+    document.visor.telavisor.value = exp.substring(0, exp.length-1);
+}</script>
     <head>
-            <link rel="stylesheet" type="text/css" href="calculadoraIphone.css" />
-        <body class="fundoP">
-            <div class="calculadoraa">
-            <input class="telaVisor" type="text" name="visor" value="0"><br>
-            <input class="teclasCinzas" type="button" name="Limpar" value="C">
-            <input class="teclasCinzas" type="button" name="tecla+/-" value="+/-">
-            <input class="teclasCinzas" type="button" name="tecla%" value="%">
-            <input class="botaoDivisao" type="button" name="teclaDivisao" value="÷"><br>
-            
-            <input class="numeros" type="button" name="numero9" value="9">
-            <input class="numeros" type="button" name="numero8" value="8">
-            <input class="numeros" type="button" name="numero7" value="7">
-            <input class="botaoMulti" type="button" name="teclaMulti" value="x"><br>
-            <input class="numeros" type="button" name="numero6" value="6">
-            <input class="numeros" type="button" name="numero5" value="5">
-            <input class="numeros" type="button" name="numero4" value="4">
-            <input class="botaoSub" type="button" name="teclaSub" value="-"><br>
-            <input class="numeros" type="button" name="numero3" value="3">
-            <input class="numeros" type="button" name="numero2" value="2">
-            <input class="numeros" type="button" name="numero1" value="1">
-            <input class="botaoSoma" type="button" name="teclaSoma" value="+"><br>
-            <input class="numeros0" type="button" name="numero0" value="0">
-            <input class="botaoVirgula" type="button" name="teclaVirgula" value=",">
-            <input class="botaoEnter" type="button" name="teclaEnter" value="=">
-        </div>
-        </body>
+        <meta charset='utf-8' lang='pt-br'>
+        <link rel="stylesheet" href="_css/style.css">
+        
     </head>
+    <body class='fundoP'>
+        <div class="calculadoraa">
+            
+            <div class='main'>
+                <form name='visor'> 
+                    <input class="telavisor" name='telavisor'> 
+                </form>                  
+                    <table>
+                        <td>
+                            <input  type="button" class='teclasCinzas' onclick='limpar()' value="C">
+                            <input type="button" class='teclasCinzas' onclick="voltar()" value="<">
+                            <input type="button" class='teclasCinzas' onclick="adicionar('/')" value="/">
+                            <input type="button" class='botaoMulti' onclick="adicionar('*')" value="*">
+                        </td>
+                        <tr>
+                            <td>
+                                <input type="button" class='numeros' onclick="adicionar(7)" value="7">
+                                <input type="button" class='numeros' onclick="adicionar(8)" value="8">
+                                <input type="button" class='numeros' onclick="adicionar(9)" value="9">
+                                <input type="button" class='botaoSoma' onclick="adicionar('+')" value="+">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="button" class='numeros' onclick="adicionar(4)" value="4">
+                                <input type="button" class='numeros' onclick="adicionar(5)" value="5">
+                                <input type="button" class='numeros' onclick="adicionar(6)" value="6">
+                                <input type="button" class='botaoSub' onclick="adicionar('-')" value="-">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="button" class='numeros' onclick="adicionar(1)" value="1">
+                                <input type="button" class='numeros' onclick="adicionar(2)" value="2">
+                                <input type="button" class='numeros' onclick="adicionar(3)" value="3">
+                                <input type="button" class='botaoEnter' onclick='igual()' value="=">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="hidden">
+                                <input type='button' value='0' onclick="adicionar(0)" class='numeros0' id='n0'>
+                                <input type='button' value='.' onclick="adicionar('.')" class='botaoVirgula' id='n0'>
+                                
+                            </td>
+                        </tr>
+                </form>               
+            </div>
+        </div>
+    </body>
 </html>
