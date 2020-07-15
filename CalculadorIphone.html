@@ -16,10 +16,12 @@ function limpar(){
 function voltar(){
     var exp = document.visor.telavisor.value;
     document.visor.telavisor.value = exp.substring(0, exp.length-1);
-}</script>
+}
+
+</script>
     <head>
         <meta charset='utf-8' lang='pt-br'>
-        <link rel="stylesheet" href="_css/style.css">
+        <link rel="stylesheet" href="calculadora.css">
         
     </head>
     <body class='fundoP'>
@@ -33,15 +35,15 @@ function voltar(){
                         <td>
                             <input  type="button" class='teclasCinzas' onclick='limpar()' value="C">
                             <input type="button" class='teclasCinzas' onclick="voltar()" value="<">
-                            <input type="button" class='teclasCinzas' onclick="adicionar('/')" value="/">
-                            <input type="button" class='botaoMulti' onclick="adicionar('*')" value="*">
+                            <input type="button" class='teclasCinzas' onclick="adicionar('%')" value="%">
+                            <input type="button" class='botaoMulti' onclick="adicionar('/')" value="/">
                         </td>
                         <tr>
                             <td>
                                 <input type="button" class='numeros' onclick="adicionar(7)" value="7">
                                 <input type="button" class='numeros' onclick="adicionar(8)" value="8">
                                 <input type="button" class='numeros' onclick="adicionar(9)" value="9">
-                                <input type="button" class='botaoSoma' onclick="adicionar('+')" value="+">
+                                <input type="button" class='botaoSoma' onclick="adicionar('*')" value="*">
                             </td>
                         </tr>
                         <tr>
@@ -57,14 +59,14 @@ function voltar(){
                                 <input type="button" class='numeros' onclick="adicionar(1)" value="1">
                                 <input type="button" class='numeros' onclick="adicionar(2)" value="2">
                                 <input type="button" class='numeros' onclick="adicionar(3)" value="3">
-                                <input type="button" class='botaoEnter' onclick='igual()' value="=">
+                                <input type="button" class='botaoEnter' onclick="adicionar('+')" value="+">
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <input type="hidden">
                                 <input type='button' value='0' onclick="adicionar(0)" class='numeros0' id='n0'>
-                                <input type='button' value='.' onclick="adicionar('.')" class='botaoVirgula' id='n0'>
+                                <input type='button' value='=' onclick= 'igual()' class='botaoVirgula' id='n0'>
                                 
                             </td>
                         </tr>
