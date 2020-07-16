@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.centro{
+    margin: auto;
+    width: 180%; 
+    position: fixed;
+}
+.menu{
+    list-style: none;
+}
+
+.menu li{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    position: relative;; 
+    float:left; 
+    margin-top: 1%; 
+    margin-left: 10%;
+    }
+.menu li a{
+    text-decoration: none;
+    color: rgb(111, 9, 245);
+}
+
+.menu li a:hover{
+    text-decoration: none;
+    color: black;
+
+}
+
+.linkCarrinho{
+    position: fixed;
+}
+.carrinho{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top:5%;
+    right: 12%;
+    border: 1px solid rgb(111, 9, 245);
+    border-radius: 4px; 
+    color:rgb(111, 9, 245);
+    
+   
+}
+
+.carrinho:active{
+    position: absolute;
+    margin-top: 5.1%;
+}
+
+.itens{
+margin: auto;     
+position: absolute;
+margin-top: 17%; 
+margin-left: 30%;
+margin-right: 20%; 
+
+    
+}
+
+.prod1{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-top:14%;
+    margin-left: 28%;
+    border: 1px solid rgb(111, 9, 245);
+    border-radius: 4px; 
+    color:rgb(111, 9, 245);
+    background-color: white;
+   
+}
+
+.buy1{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    margin-top: 1.5%; 
+    margin-left: 28%;
+    border: 1px solid rgb(111, 9, 245);
+    border-radius: 4px; 
+    color:rgb(111, 9, 245);
+    background-color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+}
+
+.buy1:hover{
+    background: linear-gradient(to bottom, rgb(193, 157, 240), rgb(183, 135, 247), rgb(167, 114, 236),rgb(150, 86, 235), rgb(145, 66, 248));
+    color: white;
+}
+
+
+
+.prod2{
+    position: relative;
+    margin-top:14%;
+    margin-left: 4%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(111, 9, 245);
+    border-radius: 4px; 
+    color:rgb(111, 9, 245);
+    background-color: white;
+}
+
+.buy2{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    margin-top: 0.4%; 
+    margin-left: 44.8%;
+    border: 1px solid rgb(111, 9, 245);
+    border-radius: 4px; 
+    color:rgb(111, 9, 245);
+    background-color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+}
+
+
+.buy2:hover{
+    background: linear-gradient(to bottom, rgb(193, 157, 240), rgb(183, 135, 247), rgb(167, 114, 236),rgb(150, 86, 235), rgb(145, 66, 248));
+    color: white;
+    }
+
+    .buy2:active{
+        position: fixed;
+        margin-top: 28.1%;
+    }
+
+
+.prod3{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-top:14%;
+    margin-left: 4%;
+    border: 1px solid rgb(111, 9, 245);
+    border-radius: 4px; 
+    color:rgb(111, 9, 245);
+    background-color: white;
+   
+}
+
+
+.buy3{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    margin-top: -0.65%; 
+    margin-left: 61.76%;
+    border: 1px solid rgb(111, 9, 245);
+    border-radius: 4px; 
+    color:rgb(111, 9, 245);
+    background-color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+}
+
+.buy3:hover{
+    background-color: rgb(111, 9, 245);
+    background: linear-gradient(to bottom, rgb(193, 157, 240), rgb(183, 135, 247), rgb(167, 114, 236),rgb(150, 86, 235), rgb(145, 66, 248));
+    color: white;
+}
+
+.buy3:active{
+    position: fixed;
+    margin-top: 28.1%;
+    background-color: rgb(111, 9, 245);
+    background: linear-gradient(to bottom, rgb(193, 157, 240), rgb(183, 135, 247), rgb(167, 114, 236),rgb(150, 86, 235), rgb(145, 66, 248));
+    color: white;
+}
