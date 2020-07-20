@@ -49,7 +49,16 @@ const menu = function (decisao) {
             }
             console.log(calculoDistancia(89, 30/60))
             break;
-
+       
+        case 7:
+            const piloto = {
+                nome:"Lewis Hamilton",
+                contrato:"U$ 50 Milhões",
+                Duração: "5 years"
+            }
+            console.log(piloto)
+            break;
+        
         default:
             console.log("Try Again")
     }
