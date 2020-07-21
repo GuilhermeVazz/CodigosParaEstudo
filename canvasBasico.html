@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Canvas tutorial</title>
+    <script type="text/javascript">
+        function draw() {
+            var canvas = document.getElementById('canvas');
+            if (canvas.getContext) {
+                var ctx = canvas.getContext('2d');
+                
+                ctx.beginPath();
+                ctx.arc(75, 75, 50, 0, Math.PI * 2, true); // Círculo exterior
+                ctx.moveTo(110, 87);
+                ctx.arc(40, 87, 0, 0, Math.PI, false);  // Boca (sentido horário)
+                ctx.moveTo(65, 65);
+                ctx.arc(60, 65, 5, 0, Math.PI * 2, true);  // Olho esquerdo
+                ctx.moveTo(95, 65);
+                ctx.arc(90, 65, 5, 0, Math.PI * 2, true);  // Olho direito
+                ctx.moveTo(65, 51);
+                ctx.arc(52, 48, 0, 0, Math.PI, true);  // Olho esquerdo
+                ctx.moveTo(98, 49);    
+                ctx.arc(84, 52, 0, 0, Math.PI, false);  // Olho esquerdo
+                
+                ctx.stroke();
+            }
+        }
+    </script>
+
+</head>
+
+<body onload="draw();">
+    <canvas id="canvas" width="150" height="150"></canvas>
+</body>
+
+</html>
