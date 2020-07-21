@@ -59,7 +59,7 @@ const menu = function (decisao) {
             console.log(piloto)
             break;
          
-        case 8:
+         case 8:
             function classificarTriangulo(lado1, lado2, lado3) {
 
                 if (lado1 == lado2 && lado2 == lado3) {
@@ -70,12 +70,50 @@ const menu = function (decisao) {
                     return 'Escaleno'
                 }
             }
-            console.log(classificarTriangulo(2,2,2))
-            console.log(classificarTriangulo(2,3,3))
-            console.log(classificarTriangulo(2,3,4))
+            console.log(classificarTriangulo(2, 2, 2))
+            console.log(classificarTriangulo(2, 3, 3))
+            console.log(classificarTriangulo(2, 3, 4))
             break
 
         case 9:
+
+            function jurosSimples(capitalInicial, taxa, tempo) {
+
+                return capitalInicial + (capitalInicial * taxa * tempo)
+
+            }
+
+            function jurosComposto(capitalInicial, taxa, tempo) {
+
+                return capitalInicial * (1 + taxa) ** tempo
+
+            }
+
+            console.log(jurosSimples(100, 10/100, 2))
+            console.log(jurosComposto(100, 10/100, 2).toFixed())
+            break
+
+        case 10:
+            
+                function bhaskara (ax2, bx, c){
+
+                    let resultados = []
+                    let delta = (bx ** 2) - (4 * ax2 * c)
+                    if (delta < 0){
+                        return "Delta é negativo"
+                    }
+                    let x1 = (-bx + Math.sqrt(delta))/2*ax2
+                    let x2 = (-bx - Math.sqrt(delta))/2*ax2
+                    resultados.push(x1)
+                    resultados.push(x2)
+                    return resultados
+                }
+
+                console.log(bhaskara(1,3,2))
+                console.log(bhaskara(3, 1, 2))
+                break
+
+        case 11:
             function sacarDinheiro(valorSaque) {
                 let contador100 = 0
                 let contador50 = 0
