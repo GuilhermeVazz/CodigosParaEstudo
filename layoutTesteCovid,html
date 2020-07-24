@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Teste</title>
+    <meta charset="UTF-8" lang="pt-br">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <p id="titulo">
+        Teste Para Covid<br>
+    </p>
+
+
+    <form id="TesteCovid1">
+        <p class="SintomasLeves">Sintomas Leves</p><br><br>
+        <p class="sintomas1">Febre:</p><input type="checkbox" class="sintomasCovid1">
+        <p class="sintomas1">Tosse Seca:</p><input type="checkbox" class="sintomasCovid1">
+        <p class="sintomas1">Cansaço:</p><input type="checkbox" class="sintomasCovid1"><br>
+        <input type="submit" value="Enviar" class="enviar1">
+    </form>
+    <form id="TesteCovid2">
+        <p class="SintomasMedio">Sintomas Medios/Graves</p><br><br>
+        <p class="sintomas2">Dores ou Desconforto:</p><input type="checkbox" class="sintomasCovid2">
+        <p class="sintomas2">Dor de Garganta:</p><input type="checkbox" class="sintomasCovid2">
+        <p class="sintomas2">Diarreia:</p><input type="checkbox" class="sintomasCovid2">
+        <p class="sintomas2">conjutivite:</p><input type="checkbox" class="sintomasCovid2">
+        <p class="sintomas2">Dor de Cabeça:</p><input type="checkbox" class="sintomasCovid2">
+        <p class="sintomas2">Perda de Paladar ou Olfato:</p><input type="checkbox" class="sintomasCovid2">
+        <p class="sintomas2">Descoloração dos Dedos:</p><input type="checkbox" class="sintomasCovid2"><br>
+        <p class="sintomas2">Dificuldade/Falta de Ar:</p><input type="checkbox" class="sintomasCovid2"><br>
+        <p class="sintomas2">Dor/Pressão No Peito:</p><input type="checkbox" class="sintomasCovid2"><br>
+        <p class="sintomas2">Perda Fala/Movimento:</p><input type="checkbox" class="sintomasCovid2"><br>
+        <input type="submit" value="Enviar" class="enviar2">
+    </form>
+    
+
+</body>
+
+</html>
