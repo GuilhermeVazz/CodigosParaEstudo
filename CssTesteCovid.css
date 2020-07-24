@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#titulo {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 17.4%; 
+    font-size: 40px;
+} 
+#TesteCovid1{
+    border: 1px solid black;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 2px;
+    position: absolute; 
+    width: 240px;
+    height: 40px;
+    margin-top: 6%;
+    margin-left: 18%;  
+    text-align: left;
+    
+    }
+    
+.SintomasLeves {
+    position: absolute;
+    margin-bottom: 2%;
+    margin-left: 4.6%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25PX;
+    }
+    
+.sintomas1{
+    
+    position: relative;
+    margin-top: 8%;
+    margin-left:5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sintomasCovid1{
+    
+    position: absolute;
+    margin-top: -5.9%;
+    margin-left: 94%;
+    
+  
+    
+}
+
+.enviar1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 5%;
+    width: 229px;
+    background-color: white;
+    color: black; 
+    border: 0px solid white;
+    box-shadow: inset 0 0 1em rgb(184, 181, 181), 0 0 1em rgb(19, 18, 18);
+}
+
+.enviar1:hover {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 5%;
+    width: 229px;
+    background-color: black;
+    color: white; 
+}
+
+
+#TesteCovid2{
+    border: 1px solid black;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    position: absolute;
+    width: 370px;
+    height: 40px;
+    margin-top: 6%;
+    margin-left: 40%;  
+    text-align: left;
+}
+
+
+.SintomasMedio {
+    position: absolute;
+    margin-bottom: 2%;
+    margin-left: 4.6%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25PX;
+}
+
+.sintomas2{
+    position: relative;
+    margin-top: 5%;
+    margin-left:5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.sintomasCovid2{
+    position: absolute;
+    margin-top: -4.8%;
+    margin-left: 94%;
+  
+    
+}
+
+.enviar2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 5%;
+    width: 342px;
+    background-color: white;
+    color: black; 
+    border: 0px solid white;
+    box-shadow: inset 0 0 1em rgb(184, 181, 181), 0 0 1em rgb(19, 18, 18);
+}
+
+.enviar2:hover {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 5%;
+    width: 342px;
+    background-color: black;
+    color: white; 
+}
