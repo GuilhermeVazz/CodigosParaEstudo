@@ -1,59 +1,57 @@
 <html>
-<script>
-    function exibirMensagem() {
 
-        var senhaAleatoria = Math.floor((Math.random() * 9999999) + 1000000);
-
-        alert("Sua senha é: " + senhaAleatoria.toString(36).toUpperCase())
-
-
-    }
-
-    function aprovarSenha() {
-        var senhaAleatoria = document.getElementById("senhaAleatoria")
-        var senhaUsuario = document.getElementById("senhaUsuario")
-        if (senhaUsuario == senhaAleatoria) {
-            alert("Aprovado")
-
-        } else {
-            alert("Tente novamente")
-        }
-    }
-
-
-</script>
 
 <head>
     <title>Guizão</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="logincss.html" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap" rel="stylesheet"> 
 
 
 
 </head>
-<ul class="menu">
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a href="../Calculadora/calculadora.html">Calculadora</a></li>
-        <li><a href="#">Teste5</a></li>
-        <li><a href="#">Teste6</a></li>
-    </ul>
-</nav>
 
 <body class='fundoPrincipal'>
     <div id="layoutFormu">
         <h1>Login</h1>
-
+        <div class="login_collum">
         <p class=login> Email <input class="usuario" type="email" name="email" required> </p>
-        <p class=senhaa>Senha <input class="senhaUsuario" type="password" name="senha" maxlength="10" required>
+        <p class=senhaa>Senha <input id="senhaDigitada" class="senhaUsuario" type="password" name="senha" maxlength="10" required>
         </p>
-        <p class=submit><a href="formu.html">
-            <input class="logar logar-lj" type="submit" value="Logar" onclick="aprovarSenha()"></p></a>
-        </a>
-        <div id="botao"><button class="gSenha gSenha-lj" onclick="exibirMensagem();">Não é Cadastrado? Gere sua senha agora</button></div>
+    </div>
+           <div id="botao"><button class="logar logar-lj" type="submit" value="Logar" onclick="aprovarSenha()">Entrar</button>
+        <button class="gSenha gSenha-lj" onclick="gerarSenha();">Não é Cadastrado? Gere sua senha agora</button></div>
+
+    </div>
 
 
 
+<script>
+//gera uma senha para o usuário validar
+    function gerarSenha() {
+
+        senhaAleatoria = Math.floor((Math.random() * 9999999) + 1000000);
+
+        senhaAleatoria = senhaAleatoria.toString(36).toUpperCase()
+
+        alert("Sua senha é: " + senhaAleatoria)
+
+    }
+//função para verificar se a senha digita é a mesma da função gerarSenha
+    function aprovarSenha() {
+        //Variavel  criada para atribuir o valor do input de campo senha
+        var verificarSenha = document.getElementById("senhaDigitada").value
+        //verifica se a senha digita no inpu é igual a gerada na função gerarSenha
+        if (verificarSenha == senhaAleatoria){
+            alert("Aprovado")
+            
+        } else  {
+            alert("Tente novamente")
+
+        }
+   }
+    
+</script>
 </body>
 
 
